@@ -55,7 +55,7 @@ namespace Case2CarShop.Menues
                     bool isPhoneNumberUserInput = CheckUserInput.IsPhoneNumber(phoneNumberUserInput);
                     if (!isPhoneNumberUserInput || phoneNumberUserInput == null)
                     {
-                        Console.WriteLine("Input is not a number, try again!");
+                        Console.WriteLine("Input is not a phonenumber, try again!");
                         Console.ReadKey();
                         continue;
                     }
